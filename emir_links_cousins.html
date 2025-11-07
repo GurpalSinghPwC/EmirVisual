@@ -1,0 +1,53 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EMIR — Shared Links (Cousins)</title>
+<style>
+  :root { --bar-h: 52px; }
+  * { box-sizing: border-box; }
+  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;margin:0;padding-top:var(--bar-h);background:#fff;color:#111}
+  .topbar{position:fixed;top:0;left:0;right:0;z-index:10;display:flex;align-items:center;justify-content:space-between;height:var(--bar-h);padding:0 12px;border-bottom:1px solid #e5e7eb;background:#fff}
+  .left{display:flex;align-items:center;gap:8px}
+  .logo{height:22px}
+  .title{font-weight:600;font-size:14px}
+  .nav .btn{display:inline-block;margin-left:8px;padding:6px 10px;border:1px solid #d1d5db;border-radius:8px;background:#fff;text-decoration:none;color:#111}
+  .nav .btn:hover{background:#f3f4f6}
+  .nav .active{background:#111;color:#fff;border-color:#111}
+  .wrap{padding:16px}
+  h1{margin:0 0 8px;font-size:18px}
+  h2{font-size:16px;margin:18px 0 6px}
+  table{border-collapse:collapse;width:100%;font-size:14px}
+  th,td{padding:8px;border-bottom:1px solid #eee;vertical-align:top}
+  small{color:#555}
+  a.button{display:inline-block;margin:8px 8px 0 0;padding:6px 10px;border:1px solid #d1d5db;border-radius:8px;text-decoration:none;color:#111}
+  a.button:hover{background:#f3f4f6}
+  ul.clean{margin:6px 0 12px 18px}
+</style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="left">
+      <img class="logo" src="file:///C:/Users/gsingh258/OneDrive%20-%20pwc/Documents/New%20folder%20%282%29/PwC_Company_Logo.svg" alt="PwC"/>
+      <span class="title">EMIR Field ↔ Cleaned Links</span>
+    </div>
+    <nav class="nav">
+      <a class="btn " href="file:///C:/Users/gsingh258/OneDrive%20-%20pwc/Documents/New%20folder%20%282%29/emir_links.html">Network</a>
+      <a class="btn active" href="file:///C:/Users/gsingh258/OneDrive%20-%20pwc/Documents/New%20folder%20%282%29/emir_links_cousins.html">Cousins</a>
+      <a class="btn " href="file:///C:/Users/gsingh258/OneDrive%20-%20pwc/Documents/New%20folder%20%282%29/emir_links_orphans.html">Orphans</a>
+      <a class="btn " href="file:///C:/Users/gsingh258/OneDrive%20-%20pwc/Documents/New%20folder%20%282%29/emir_links_guide.html">Guide</a>
+    </nav>
+  </div>
+  <div class="wrap">
+    
+<h1>Shared Links (Cousins)</h1>
+<p><small>Linked items that connect to 2 or more Fields. "Cousin strength" = number of Fields.</small></p>
+<p>
+  <a class="button" href="file:///C:/Users/gsingh258/OneDrive%20-%20pwc/Documents/New%20folder%20%282%29/emir_cousins.csv">Download Cousins CSV</a>
+  <a class="button" href="file:///C:/Users/gsingh258/OneDrive%20-%20pwc/Documents/New%20folder%20%282%29/emir_top_hubs.csv">Download Top Hubs CSV</a>
+</p>
+<table>
+  <thead><tr><th>Linked Item</th><th>Cousin Strength</th><th>Fields</th></tr></thead>
+  <tbody><tr><td>Action Type</td><td>2</td><td>Event Type, Level</td></tr><tr><td>Counterparty 1</td><td>3</td><td>Counterparty 2, Other Payment Payer, Other Payment Receiver</td></tr><tr><td>Delivery Type</td><td>2</td><td>Settlement Currency 1, Settlement Currency 2</td></tr><tr><td>Direction</td><td>4</td><td>Direction Of Leg 1, Direction Of Leg 2, Valuation Amount, Venue Of Execution</td></tr><tr><td>Effective Date</td><td>2</td><td>Expiration Date, Maturity Date Of The Underlying</td></tr><tr><td>Master Agreement Type</td><td>2</td><td>Master Agreement Version, Other Master Agreement Type</td></tr><tr><td>Nature Of The Counterparty 1</td><td>3</td><td>Clearing Threshold Of Counterparty 1, Corporate Sector Of The Counterparty 1, Directly Linked To Commercial Activity Or Treasury Financing</td></tr><tr><td>Notional Amount In Effect On Associated Effective Date Of Leg 1</td><td>2</td><td>Effective Date Of The Notional Amount Of Leg 1, End Date Of The Notional Amount Of Leg 1</td></tr><tr><td>Notional Amount In Effect On Associated Effective Date Of Leg 2</td><td>2</td><td>Effective Date Of The Notional Amount Of Leg 2, End Date Of The Notional Amount Of Leg 2</td></tr><tr><td>Notional Quantity In Effect On Associated Effective Date Of Leg 1</td><td>2</td><td>Effective Date Of The Notional Quantity Of Leg 1, End Date Of The Notional Quantity Of Leg 1</td></tr><tr><td>Notional Quantity In Effect On Associated Effective Date Of Leg 2</td><td>2</td><td>Effective Date Of The Notional Quantity Of Leg 2, End Date Of The Notional Quantity Of Leg 2</td></tr><tr><td>Other Payment Type</td><td>5</td><td>Other Payment Amount, Other Payment Currency, Other Payment Date, Other Payment Payer, Other Payment Receiver</td></tr><tr><td>Package Identifier</td><td>3</td><td>Isin, Package Transaction Price, Package Transaction Spread</td></tr><tr><td>Price In Effect Between The Unadjusted Effective And End Date</td><td>2</td><td>Unadjusted Effective Date Of The Price, Unadjusted End Date Of The Price</td></tr><tr><td>Product Classification</td><td>3</td><td>Asset Class, Confirmed, Contract Type</td></tr><tr><td>Strike Price In Effect On Associated Effective Date</td><td>2</td><td>Effective Date Of The Strike Price, End Date Of The Strike Price</td></tr></tbody>
+</table>
+
+  </div>
+</body></html>
